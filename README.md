@@ -1,29 +1,46 @@
 # 🌟 Himanshu Yadav - Personal Portfolio Website
+# Personal Developer Portfolio
 
-A modern, responsive, Apple-inspired glassmorphic portfolio website crafted with pure **HTML5, CSS3, and JavaScript**.
+A responsive, lightweight single-page portfolio built with vanilla HTML, CSS, and JavaScript. Styled with modern UI components, smooth navigation, glassmorphism UI elements, and dynamic certificate showcases.
+
+[Live Demo]((https://himanshuyportfolio.vercel.app/)) 
 
 ---
 
-## 📁 Project Structure
+## Features
 
-```
-HimanshuPortfoliyo/
+- **Vanilla Stack**: Zero external heavy frameworks, pure web technology built for performance.
+- **Glassmorphism Theme**: Dark/light visuals, subtle card borders, and smooth hover glow effects.
+- **Interactive Modals**: Dynamic light-box viewer for certifications and profile views.
+- **Certificate Showcase**: Embedded verifications including ISRO Geodata Processing, Cisco Cybersecurity, Deloitte, Edureka, and LeetCode achievements.
+- **Fully Responsive**: Optimized UI layout across desktop, tablet, and mobile devices.
+
+---
+
+## Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Assets & Icons**: Custom SVG logos and compressed WebP/PNG assets
+- **Deployment**: Vercel
+
+---
+
+## Project Structure
+
+```text
+himanshuportfolio/
 │
-├── index.html                   # Main single-page portfolio structure
-├── style.css                    # Glassmorphism, dark/light themes, animations & responsive design
-├── script.js                    # Interactive features (glow, typewriter, theme toggle, filters, modal)
-├── README.md                    # Setup, customization & GitHub deployment guide
+├── index.html            # Main markup structure
+├── style.css             # Custom layouts, themes & animations
+├── script.js            # UI interactions, dynamic modals & state
 │
-└── assets/                      # Media and graphic assets
-    ├── logo.svg                 # "HY" Monogram logo
-    ├── avatar-placeholder.svg   # Sleek developer avatar placeholder (fallback)
-    ├── profile.jpg             
-    ├── Himanshu_Yadav_Resume.pdf #  resume PDF here
-    ├── himanshu-cert-isro.svg           # IIRS (ISRO) Geodata Processing Certificate
-    ├── himanshu-cert-cisco.svg          # Cisco Networking Academy Cybersecurity Certificate
-    ├── himanshu-cert-edureka.svg        # Edureka Full Stack Development Certificate
-    ├── himanshu-cert-greatlearning.svg  # Great Learning Computer Architecture Certificate
-    └── himanshu-cert-leetcode.svg       # LeetCode Knight Badge (200+ Solved) Certificate
-- **Certificate & Profile Modal:** Click any certificate or your profile photo to view an enlarged lightbox popup.
-- **Interactive Contact Form & One-Click Copy:**
-- **100% Mobile Responsive:** Clean hamburger drawer and responsive layout for all screen sizes.
+├── assets/               # Media and graphic assets
+│   ├── logo.svg
+│   ├── Himanshu_Yadav_Resume.pdf
+│   ├── himanshu-cert-isro.png
+│   ├── himanshu-cert-cisco.png
+│   ├── himanshu-cert-edureka.png
+│   ├── himanshu-cert-greatlearning.png
+│   └── himanshu-cert-leetcode.svg
+│
+└── README.md             # Project documentation
