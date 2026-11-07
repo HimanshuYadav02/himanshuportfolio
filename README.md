@@ -3,7 +3,8 @@
 
 A responsive, lightweight single-page portfolio built with vanilla HTML, CSS, and JavaScript. Styled with modern UI components, smooth navigation, glassmorphism UI elements, and dynamic certificate showcases.
 
-[Live Demo]((https://himanshuyportfolio.vercel.app/)) 
+Live Demo : 
+https://himanshuyportfolio.vercel.app/ 
 
 ---
 
